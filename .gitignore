@@ -1,0 +1,17 @@
+assets
+bin
+_build
+conf.py
+include
+lib
+lib64
+ls
+Makefile
+__pycache__
+pyvenv.cfg
+share
+_static
+_templates
+.vscode
+.idea
+.pytest_cache

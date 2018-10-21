@@ -1,0 +1,5 @@
+pytest
+pytest-variables
+pytest-html
+requests
+Sphinx

@@ -44,7 +44,7 @@ export PATH="$PATH":<b>/home/erik/jmeter/bin</b>
 
 ### Sphinx configuration 
 
-The project uses Sphinx to generate test case summary documentation. The tests are summarized at the bottom of this document but to generate it based on , follow the steps below
+The project uses Sphinx to generate test case summary documentation. The tests are summarized at the bottom of this document but to auto generate it from docstrings, follow the steps below
 
 From the command line, type `sphinx-quickstart`
 
@@ -83,39 +83,40 @@ A folder will be created with the current time stamp that outputs the results fr
 
 ### Functional
 The API is exercised using the following options
-    1. Specific address (street number, city, state, zip code, country)
-    2. Place name and country
-    3. Country only
-    4. Address and optional region parameter
-    5. Address and optional language parameter
-    6. Address and optional component parameter
-    7. Components only
-    8. Ambiguous search term resulting in multiple results returned
-    9. Narrow search results using the optional bounds parameter
-    10. Reverse geocoding using latlng
-    11. Reverse geocoding using one optional result_type parameter
-    12. Reverse geocoding using multiple result_type parameters
-    13. Reverse geocoding using location_type parameter
-    14: Reverse geocoding using multiple location_type parameters
-    15: Reverse geocoding using place id
+
+1. Specific address (street number, city, state, zip code, country)
+2. Place name and country
+3. Country only
+4. Address and optional region parameter
+5. Address and optional language parameter
+6. Address and optional component parameter
+7. Components only
+8. Ambiguous search term resulting in multiple results returned
+9. Narrow search results using the optional bounds parameter
+10. Reverse geocoding using latlng
+11. Reverse geocoding using one optional result_type parameter
+12. Reverse geocoding using multiple result_type parameters
+13. Reverse geocoding using location_type parameter
+14: Reverse geocoding using multiple location_type parameters
+15: Reverse geocoding using place id
     
 Negative tests are also included
-    * Invalid HTTP method - POST
-    * Invalid HTTP method - DELETE
-    * URL longer than maximum allowed
-    * Invalid API key
-    * No API key parameter
-    * No address parameter
-    * Non-existent address
-    * Invalid region
-    * Invalid language
-    * Invalid components
-    * Reverse geocoding with no latlng parameter
-    * Reverse geocoding with invalid result_type
-    * Reverse geocoding with invalid latlng values
-    * Reverse geocoding with invalid place_id
-    * Reverse geocoding with invalid location_type
-    * Invalid bounds
+* Invalid HTTP method - POST
+* Invalid HTTP method - DELETE
+* URL longer than maximum allowed
+* Invalid API key
+* No API key parameter
+* No address parameter
+* Non-existent address
+* Invalid region
+* Invalid language
+* Invalid components
+* Reverse geocoding with no latlng parameter
+* Reverse geocoding with invalid result_type
+* Reverse geocoding with invalid latlng values
+* Reverse geocoding with invalid place_id
+* Reverse geocoding with invalid location_type
+* Invalid bounds
 
 ### Performance
 

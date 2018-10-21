@@ -165,8 +165,8 @@ def test_invalid_language(config_data, data_test_geo_negative):
     return resp
 
 
-def test_invalid_language(config_data, data_test_geo_negative):
-    """This test attempts to access the API with an invalid language"""
+def test_invalid_components(config_data, data_test_geo_negative):
+    """This test attempts to access the API with invalid components"""
 
     api_url = config_data['url'] + config_data['output_format']
 

@@ -1,7 +1,10 @@
 Welcome to geoTests's documentation!
 ====================================
 
-.. automodule:: test_con_g01_get_coordinates
+.. automodule:: test_geo_functional
+   :members:
+
+.. automodule:: test_geo_negative
    :members:
 
 .. toctree::

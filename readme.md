@@ -44,7 +44,7 @@ export PATH="$PATH":<b>/home/erik/jmeter/bin</b>
 
 ### Sphinx configuration 
 
-The project uses Sphinx to generate test case summary documentation. The tests are summarized at the bottom of this document but to generate it based on , follow the steps below
+The project uses Sphinx to generate test case summary documentation. The tests are summarized at the bottom of this document but to auto generate it from docstrings, follow the steps below
 
 From the command line, type `sphinx-quickstart`
 
